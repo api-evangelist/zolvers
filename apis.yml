@@ -1,7 +1,28 @@
 aid: zolvers
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zolvers.png
 name: Zolvers
-description: Zolvers is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zolvers is a home-services marketplace that connects households with vetted,
+  background-checked domestic and home-maintenance workers across Latin America,
+  operating in Argentina, Mexico, Colombia, and Chile with a focus on Buenos
+  Aires, Mexico City, Santiago, Bogotá, and Monterrey. The platform handles
+  service requests, worker vetting, scheduling, and integrated payment
+  processing for housekeeping and cleaning (one-time and live-in) plus home
+  maintenance such as plumbing, electrical, gas, painting, air conditioning,
+  general repairs, upholstery cleaning, and elder care. Backed by 500 Global,
+  Zolvers is a consumer-facing platform with no public API or developer program
+  at this time.
 url: https://raw.githubusercontent.com/api-evangelist/zolvers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Home Services
+- Marketplace
+- Domestic Work
+- Cleaning
+- Latin America
+- Gig Economy
+- On-Demand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://zolvers.com
+- type: TermsOfService
+  url: https://zolvers.com/terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/373930
+- type: Blog
+  url: https://empleadasdomesticas.com.mx
+- type: DomainSecurity
+  url: security/zolvers-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
