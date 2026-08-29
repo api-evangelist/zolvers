@@ -35,6 +35,9 @@ description: >-
   Zolvers is a consumer-facing platform with no public API or developer program
   at this time.
 url: https://raw.githubusercontent.com/api-evangelist/zolvers/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Backed by 500 Global, Zolvers is a consumer-facing platform with no public API or developer program at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
